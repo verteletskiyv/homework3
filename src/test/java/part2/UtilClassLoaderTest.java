@@ -18,9 +18,10 @@ class UtilClassLoaderTest {
     @BeforeAll
     static void setUp() {
         propsPath = Path.of("src/main/resources/part2/class.properties");
-//      stringProperty=valueOfStringProperty
-//      numberProperty=111
-//      timeProperty=12.12.2022 09:40
+//        stringProperty=valueOfStringProperty
+//        numberProperty=111
+//        timeProperty=12.12.2022 09:40
+//        another=testSideProperty
     }
 
     @Test
@@ -35,7 +36,7 @@ class UtilClassLoaderTest {
         expected.setMyNumber(111);
         expected.setStringProperty("valueOfStringProperty");
         PropertyClassValid actual = UtilClassLoader.loadFromProperties(PropertyClassValid.class, propsPath);
-
+        System.out.println(actual);
         assertEquals(expected, actual);
     }
 

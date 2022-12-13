@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39c7110f-3adb-4ec0-8d32-bc9124347741" name="Changes" comment="" />
+    <list default="true" id="39c7110f-3adb-4ec0-8d32-bc9124347741" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part2/UtilClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/UtilClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/part2/class.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/part2/class.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/part2/UtilClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/part2/UtilClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassFormatAbsence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassFormatAbsence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassInvalidFieldName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassInvalidFieldName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassInvalidFormatPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassInvalidFormatPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassInvalidPropertyName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassInvalidPropertyName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassInvalidType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassInvalidType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/part2/test_classes/PropertyClassValid.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +210,12 @@
       <workItem from="1670674738933" duration="11957000" />
       <workItem from="1670753117216" duration="22916000" />
       <workItem from="1670789915832" duration="2010000" />
-      <workItem from="1670829826101" duration="6213000" />
+      <workItem from="1670829826101" duration="6732000" />
+      <workItem from="1670870223766" duration="83000" />
+      <workItem from="1670930047002" duration="435000" />
+      <workItem from="1670936010727" duration="93000" />
+      <workItem from="1670944992764" duration="1746000" />
+      <workItem from="1670957889204" duration="5167000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670837492584</created>
@@ -207,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670837492584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1670837595816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670837595816</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1670837611228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670837611228</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

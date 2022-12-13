@@ -50,4 +50,13 @@ public class PropertyClassValid {
     public int hashCode() {
         return Objects.hash(getStringProperty(), getMyNumber(), getTimeProperty());
     }
+
+    @Override
+    public String toString() {
+        return "PropertyClassValid{" +
+                "stringProperty='" + stringProperty + '\'' +
+                ", myNumber=" + myNumber +
+                ", timeProperty=" + timeProperty +
+                '}';
+    }
 }

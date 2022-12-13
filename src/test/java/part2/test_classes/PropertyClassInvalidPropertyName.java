@@ -11,5 +11,17 @@ public class PropertyClassInvalidPropertyName {
     private int myNumber;
     @Property(format = "dd.MM.yyyy HH:mm")
     private Instant timeProperty;
+
+    public void setStringProperty(String stringProperty) {
+        this.stringProperty = stringProperty;
+    }
+
+    public void setMyNumber(int myNumber) {
+        this.myNumber = myNumber;
+    }
+
+    public void setTimeProperty(Instant timeProperty) {
+        this.timeProperty = timeProperty;
+    }
 }
 

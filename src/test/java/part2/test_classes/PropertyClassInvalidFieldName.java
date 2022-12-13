@@ -10,4 +10,16 @@ public class PropertyClassInvalidFieldName {
     private int myNumber;
     @Property(format = "dd.MM.yyyy HH:mm")
     private Instant timeProperty;
+
+    public void setSTRING(String STRING) {
+        this.STRING = STRING;
+    }
+
+    public void setMyNumber(int myNumber) {
+        this.myNumber = myNumber;
+    }
+
+    public void setTimeProperty(Instant timeProperty) {
+        this.timeProperty = timeProperty;
+    }
 }

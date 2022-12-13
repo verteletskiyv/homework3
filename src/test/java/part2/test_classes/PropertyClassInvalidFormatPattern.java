@@ -10,4 +10,16 @@ public class PropertyClassInvalidFormatPattern {
     private int myNumber;
     @Property(format = "dd.MM.yyyy tt:mm")
     private Instant timeProperty;
+
+    public void setStringProperty(String stringProperty) {
+        this.stringProperty = stringProperty;
+    }
+
+    public void setMyNumber(int myNumber) {
+        this.myNumber = myNumber;
+    }
+
+    public void setTimeProperty(Instant timeProperty) {
+        this.timeProperty = timeProperty;
+    }
 }
